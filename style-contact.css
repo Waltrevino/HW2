@@ -1,0 +1,127 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+  
+ul {
+  position: relative;
+  right: 30px;
+}
+
+form {
+  margin-bottom: 50px;
+ 
+}
+
+button {
+  margin-left: 45px;
+  height: 35px;
+  width: 100px;
+  background: teal;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.header-name {
+  position: absolute;
+  left: 30px;
+  background: teal;
+  padding-top: 15px;
+  height: 100%  
+}
+
+.header-name h4 {
+  padding-left: 45px;
+  padding-right: 45px;
+  color: white;
+}
+
+.container {
+  background-color: #F3F3F3;
+  height: 1000px;
+}
+
+.about-me-container {
+  background: white; 
+  margin-top: 30px; 
+  margin-left: 30px;
+  padding-bottom: 30px;  
+}
+
+.about-me-header {
+  margin-left: 45px;
+  margin-top: 30px;
+  color: teal;
+}
+
+.about-me-break {
+    margin-left: 45px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: solid 2px #F3F3F3;
+    margin-bottom: 20px;
+  }
+
+.img-container-portfolio {
+    
+}
+
+.img-label-portfolio {
+    background: teal;
+    
+}
+
+.about-me-img {
+  margin-left: 45px;
+  margin-top: 30px;
+  padding: 0;
+  float: left;
+  margin-right: 20px;
+}
+
+p {
+  margin: 30px;
+}
+
+footer {
+  background: darkgray; 
+  position: absolute;
+  border: solid red 1px;
+  left: 450px;
+  bottom: 0;
+  text-align: center;
+  width: 1024px;
+
+}
+
+
+
+.copyright-container {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+border: .994px;
+}
+
+.copyright-item {
+
+}
+
+.form-group {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+textarea {
+  height: 500px;
+}
